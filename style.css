@@ -4,6 +4,22 @@ body {
     outline: 0;
     box-sizing: border-box;
 }
+<<<<<<< HEAD
+
+footer {
+    background-color: #4fc2bb;
+    width: 100%;
+    height: 200px;
+}
+
+.centerized {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+>>>>>>> Giuliana
 .l1 {
     height: 5px;
 }
@@ -15,8 +31,9 @@ body {
 .line {
     background-image: linear-gradient(to right, #387cad, #54dabf);
     width: 100%;
+    overflow: hidden;
 }
-    /*estilos*/
+
 .mainMenu {
     background-color: #FFF;
     width: 100%;
@@ -25,18 +42,34 @@ body {
     justify-content: space-between;
     text-transform: uppercase;
 }
-.firstHalf{
-    display: none;
+
+.mainMenu a {
+    text-decoration: none;
+    font-size: .7em;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #393535;
 }
-.secondHalf{
-    display: none;
+
+.firstHalf {
+    display: flex;
+    flex: 1;
+    justify-content: space-around;
+    align-items: center;
 }
-.btn-menu{
-    font-size: 50px;
-    cursor: pointer;
-    color: #54dabf;
-    background: transparent;
-    border: none;
+
+.secondHalf {
+    display: flex;
+    flex: 1;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#search {
+    color: #fffeff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    float: right;
+    margin-right: 250px;
 }
 .btn-close{
     cursor: pointer;
@@ -72,15 +105,27 @@ body {
 .login {
     width: 100%;
     height: 350px;
-    background-image: url('images.jpeg');
+    background-image: url('coding.jpg');
     overflow: hidden;
 }
 .login form {
     display: flex;
     flex-direction: column;
+    padding: 20px;
+}
+
+.login form button {
+    margin-top: 20px;
+    background-image: linear-gradient(to right, #387cad, #54dabf);
+    border: 0;
+    width: 90%;
+    height: 30px;
+    color: #FFF;
+    font-size: 20px;
 }
 
 .login input {
+    width: 85%;
     border: 0;
     border-bottom: 1px solid #ccc;
     border-bottom-width: 1.7px;
@@ -90,10 +135,8 @@ body {
 #login-block {
     background-color: #FFFF;
     width: 30%;
-    padding: 20px;
     margin: 5% 35%;
     border-radius: 10px;
-    overflow: hidden;
 }
 
 #login-block h1{
@@ -106,21 +149,48 @@ body {
     padding: 0;
     background-color: #3d88b0;
     width: 100%;
-    height: 20px;
-}
-footer {
-    background-color: #4fc2bb;
-    width: 100%;
-    height: 200px;
-    position: absolute;
-    bottom: 0;
-}
-#search {
-    color: #fffeff;
+    height: 40px;
+
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
+    line-height: 40px;
+    font-size: 25px;
+    color: #FFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#remember a {
+    text-decoration: none;
+    color: #3d88b0; 
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+#topSeachBar {
+    display: inline;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#tsb1 {
+    float: left;
+    height: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#tsb1 ul {
+    list-style: none;
+}
+
+#tsb1 li {
+    display: inline;
+}
+
+#tsb2 {
     float: right;
-    margin-right: 250px;
 }
 @media screen and (min-width: 900px) {
     .mainMenu a {
