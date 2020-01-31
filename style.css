@@ -4,6 +4,7 @@ body {
     outline: 0;
     box-sizing: border-box;
 }
+<<<<<<< HEAD
 
 footer {
     background-color: #4fc2bb;
@@ -17,6 +18,8 @@ footer {
     align-items: center;
 }
 
+
+>>>>>>> Giuliana
 .l1 {
     height: 5px;
 }

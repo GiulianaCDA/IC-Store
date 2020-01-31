@@ -10,19 +10,38 @@
 <body>
     <div class="line l1"></div>
     
-    <div class="mainMenu">
+    <header class="mainMenu">
         <ul class="firstHalf">
             <a href="">INICIO</a>
             <a href="">PRODUTOS</a>
             <a href="">CONTATO</a>
         </ul>
-        <img src="logo.png">
+        <h1><img src="logo.png"></h1>
+        <button class="btn-menu"><i class="fas fa-bars"></i></button>
+        <nav class="menu" style="display: none;">
+            <a class="btn-close">x</a>
+            <ul>
+                <li><a>HHH</a></li>
+                <li><a>HHH</a></li>
+                <li><a>HHH</a></li>
+            </ul>
+        </nav>
+        <script src="http://code.jquery.com/jquery-1.12.0.min.js"></script>
+        <script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+        <script>
+        $(".btn-menu").click(function() {
+            $(".menu").show();
+            });
+            $(".btn-close").click(function() {
+            $(".menu").hide();
+        });
+ </script>
         <ul class="secondHalf">
             <a href="">AJUDA</a>
             <a href="">SOBRE</a>
             <a href="">LOGIN</a>
         </ul>
-    </div>
+    </header>
 
     <div class="line l2">
         <div id="topSearchBar">
