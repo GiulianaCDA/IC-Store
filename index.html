@@ -1,1 +1,71 @@
-Oi giu :D
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/2774b2caff.js" crossorigin="anonymous"></script>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Random Title</title>
+</head>
+<body>
+    <div class="line l1"></div>
+    
+    <header class="mainMenu">
+        <ul class="firstHalf">
+            <a href="">INICIO</a>
+            <a href="">PRODUTOS</a>
+            <a href="">CONTATO</a>
+        </ul>
+        <h1><img src="logo.png"></h1>
+        <button class="btn-menu"><i class="fas fa-bars"></i></button>
+        <nav class="menu" style="display: none;">
+            <a class="btn-close">x</a>
+            <ul>
+                <li><a>HHH</a></li>
+                <li><a>HHH</a></li>
+                <li><a>HHH</a></li>
+            </ul>
+        </nav>
+        <script src="http://code.jquery.com/jquery-1.12.0.min.js"></script>
+        <script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+        <script>
+        $(".btn-menu").click(function() {
+            $(".menu").show();
+            });
+            $(".btn-close").click(function() {
+            $(".menu").hide();
+        });
+ </script>
+        <ul class="secondHalf">
+            <a href="">AJUDA</a>
+            <a href="">SOBRE</a>
+            <a href="">LOGIN</a>
+        </ul>
+    </header>
+
+    <div class="line l2"></div>
+    <div class="login">
+        <div id="login-block">
+            <div id="loginBar"><h1>LOGIN</h1></div>
+            <form action="">
+                <input type="text" class="inpt" placeholder="E-MAIL">
+                <input type="password" class="inpt" placeholder="SENHA">
+            </form>
+        </div>
+    </div>
+
+    <!----<footer>
+        <div id="socialMedia">
+            <p>SIGA-NOS NAS REDES SOCIAIS:</p>
+        </div>
+        <div id="search">
+            <p>PESQUISAR</p>
+            <input type="text" class="inpt">
+        </div>
+        <div id="copyright">
+            <p>COPYRIGHT. DESENVOLVIDO EM 2020. GRUPO 4. TODOS OS DIREITOS RESERVADOS.</p>
+        </div>
+    </footer>-->
+</body>
+</html>
