@@ -1,0 +1,209 @@
+body {
+    padding: 0;
+    margin: 0;
+    outline: 0;
+    box-sizing: border-box;
+    background-color: #f2f2f2;
+}
+
+footer {
+    background-color: #4fc2bb;
+    width: 100%;
+    height: 200px;
+}
+
+.centerized {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.l1 {
+    height: 5px;
+}
+
+.l2 {
+    height: 30px;
+}
+
+.l3 {
+    height: 8px;
+    width: 23% !important;
+}
+.line {
+    background-image: linear-gradient(to right, #387cad, #54dabf);
+    width: 100%;
+    overflow: hidden;
+}
+
+.mainMenu {
+    background-color: #FFF;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+}
+
+.mainMenu a {
+    text-decoration: none;
+    font-size: .7em;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #393535;
+}
+
+.firstHalf {
+    display: flex;
+    flex: 1;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.secondHalf {
+    display: flex;
+    flex: 1;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#search {
+    color: #fffeff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+.inpt {
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    height: 20px;
+    padding: 0 15px;
+    font-size: .7em;
+}
+
+#copyright {
+    color: #fffeff;
+    text-align: center;
+    width: 100%;
+}
+
+#socialMedia {
+    color: #fffeff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    float: left;
+    height: 50%;
+}
+
+#topSeachBar {
+    display: inline;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#tsb1 {
+    float: left;
+    height: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#tsb1 ul {
+    list-style: none;
+}
+
+#tsb1 li {
+    display: inline;
+}
+
+#tsb2 {
+    float: right;
+}
+
+#tsb2 form {
+    display: inline;
+}
+
+#tsb2 input {
+    vertical-align: super;
+}
+
+#tsb2 ::placeholder {
+    color: #FFF;
+}
+
+#topSearchBar input {
+    background: transparent;
+    border: 0;
+    border-bottom: 1px solid #ccc;
+    border-bottom-width: 1.7px;
+    border-radius: 0px;
+}
+
+#socialMedia ul {
+    list-style: none;
+}
+
+#socialMedia li {
+    display: inline;
+}
+
+#homepage {
+    width: 100%;
+    height: 360px;
+}
+
+#block {
+    float: left;
+    margin-top: 100px;
+    margin-left: 20%;
+    height: 100%;
+    width: 200px;
+    text-align: center;
+}
+
+#block p {
+    font-size: 30px;
+}
+
+#block button {
+    background-color: #184262;
+    border: none;
+    color: #FFF;
+    width: 100%;
+    height: 30px;
+}
+
+#produtosavenda {
+    margin-top: 43px;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+#produtosavenda p {
+    border-bottom: 2px linear-gradient(to right, #387cad, #54dabf);
+    font-weight: bold;
+}
+
+.items {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.item {
+    background-color: #FFF;
+    width: 20%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.checked {
+  color: orange;
+}
