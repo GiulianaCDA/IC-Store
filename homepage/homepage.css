@@ -197,7 +197,7 @@ footer {
 .item {
     background-color: #FFF;
     width: 20%;
-    height: 200px;
+    height: 250px;
     display: flex;
     flex-direction: column;
     align-items: center;
