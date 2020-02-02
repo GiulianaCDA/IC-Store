@@ -11,34 +11,44 @@
 </head>
 
 <body>
-    <div class="line l1"></div>
+    
+<div class="line l1"></div>
 
     <header class="mainMenu">
-        <ul class="firstHalf">
-            <a href="">INICIO</a>
-            <a href="">PRODUTOS</a>
-            <a href="">CONTATO</a>
+        <ul class="firstHalf menu">
+            <li><a href="">inicio</a></li>
+            <li><a href="">produtos</a></li>
+            <li><a href="">contato</a></li>
         </ul>
-        <h1><img src="logoOficial.png"></h1>
-        
-        <ul class="secondHalf">
-            <a href="">AJUDA</a>
-            <a href="">SOBRE</a>
-            <a href="">LOGIN</a>
+
+        <h1><img src="logoOficial.png" class="logo-desktop"><img src="logowhite.png" class="logo-mobile"></h1>
+        <nav class="menu-mobile menu">
+            <ul>
+                <li><a href="">início</a></li>
+                <li><a href="">produtos</a></li>
+                <li><a href="">contato</a></li>
+                <li><a href="">sobre</a></li>
+            </ul>
+        </nav>
+        <ul class="secondHalf menu">
+            <li><a href="">ajuda</a></li>
+            <li><a href="">sobre</a></li>
+            <li><a href="">login</a></li>
         </ul>
     </header>
-
     <div class="line l2">
-        <div id="topSearchBar">
+        <div class="topSearchBar">
             <div id="tsb1">
                 <ul>
-                    <li><img src="facebook.png" alt="" height="50"></li>
-                    <li><img src="instagram.png" alt="" height="50"></li>
-                    <li><img src="twitter.png" alt="" height="50"></li>
+                    <li><a href=""><i class="fab fa-facebook-f"></i></a></li>
+                    <li><a href=""><i class="fab fa-instagram"></i></a></li>
+                    <li><a href=""><i class="fab fa-twitter"></i></a></li>
+                    <li><a href=""><i class="fas fa-envelope"></i></a></li>
+                    <li><a href=""><i class="fab fa-whatsapp"></i></a></li>
                 </ul>
             </div>
             <div id="tsb2">
-                <img src="lupa_transparent.png" height="30">
+                <a href=""></a><img src="lupa_transparent.png" height="30">
                 <form action="">
                     <input type="text" placeholder="PESQUISAR">
                 </form>
@@ -56,21 +66,21 @@
     <div class="items">
         <div class="item">
             <div class="bar">
-                <p>VENI</p>
+                <p>Reembolso</p>
             </div>
-            <p class="sentence">Oi tudo bom? Eu sou um texto genérico e adoraria saber sua opinão sobre minha criatividade</p>
+            <p class="sentence">Aqui você pode solicitar o reembolso de qualquer item, no prazo máximo de 30 dias após a compra.</p>
         </div>
         <div class="item">
             <div class="bar">
-                <p>VIDI</p>
+                <p>Troca</p>
             </div>
-            <p class="sentence">Claramente tem alguém com preguiça de pegar um Loren Ipsum do google...</p>
+            <p class="sentence">Comprou uma camisa que ficou grande demais ? Não tem problema, agende aqui sua troca.</p>
         </div>
         <div class="item">
             <div class="bar">
-                <p>VICI</p>
+                <p>Reclamações</p>
             </div>
-            <p class="sentence">sErA qUe eU tO eRrAdO ?? あなたを愛しています</p>
+            <p class="sentence">Algo te incomodou ? Deixe sua reclamação abaixo.</p>
         </div>
     </div>
     
@@ -88,6 +98,37 @@
                     </form>
     </div>
     </div>
+
+        <footer>
+            <div class="text-footer">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam repellendus labore nisi, at sapiente
+                    commodi delectus soluta, nihil possimus eligendi iure itaque asperiores? Est facilis assumenda et aut.
+                </p>
+            </div>
+            <div class="team">
+                <ul class="team1">
+                    <li>Giuliana</li>
+                    <li>Matheus</li>
+                    <li>Gabriel</li>
+                </ul>
+                <ul class="team2">
+                    <li>Rodrigo</li>
+                    <li>Bruno</li>
+                    <li>Lucas</li>
+                </ul>
+            </div>
+            <div class="social-media">
+                <ul>
+                    <p>Nossas redes sociais: </p>
+                    <li><a href=""><i class="fab fa-facebook-f"></i></a></li>
+                    <li><a href=""><i class="fab fa-instagram"></i></a></li>
+                    <li><a href=""><i class="fab fa-twitter"></i></a></li>
+                    <li><a href=""><i class="fas fa-envelope"></i></a></li>
+                    <li><a href=""><i class="fab fa-whatsapp"></i></a></li>
+                </ul>
+            </div>
+            <p class="copy">CopyRight <i class="fas fa-copyright"></i>. Todos os direitos reservados. 2020.</p>
+        </footer>
 </body>
 
 </html>
