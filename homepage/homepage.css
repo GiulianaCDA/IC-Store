@@ -7,12 +7,71 @@ body {
     font-family: 'Roboto', sans-serif, Arial;
 }
 
-footer {
-    background-color: #4fc2bb;
-    width: 100%;
-    height: 200px;
+footer{
+    background: #54dabf;
+    color: #fff;
+    overflow: hidden;
+    font-size: .7em;
+    padding: 10px 35px;
+    font-family: 'Roboto', sans-serif;
 }
 
+.text-footer {
+    width: 25%;
+    text-align: center;
+    float: left;
+}
+
+.social-media{
+    text-align: center;
+    margin-right: 55px;
+}
+
+.social-media p{
+    font-size: 1.2em;
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.social-media img{
+    height: 50px;
+}
+
+.social-media ul{
+    display: inline-block;
+}
+
+.social-media ul li{
+    display: inline;
+}
+
+li i{
+    color: #fff;
+}
+
+li i:hover{
+    transform: translateY(-5px);
+    transition: all .2s linear;
+}
+
+footer i{
+    font-size: 1.6em;
+    margin-right: 10px;
+    color: #128ae0;
+}
+
+footer .team p{
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.team{
+    display: none;
+}
+footer .copy{
+    margin-top: 30px;
+    text-align: center;
+}
 .centerized {
     display: flex;
     justify-content: center;
@@ -278,4 +337,42 @@ footer {
 @keyframes fade {
   from {opacity: .4}
   to {opacity: 1}
+}
+
+@media ( min-width: 1024px ) {
+    footer{
+        padding-left: 25px;
+        padding-right: 25px;
+        padding-top: 40px;
+        padding-bottom: 10px;
+    }
+    .text-footer{
+        width: 35%;
+        text-align: center;
+        float: left;
+    }
+    .team{
+        display: inherit;
+        float: left;
+        margin: 20px 100px;
+        font-weight: bold;
+    }
+    .team1{
+        float: left;
+    }
+    .team2{
+        float: right;
+    }
+    .team ul{
+        list-style: circle;
+    }
+    footer i{
+        color: #fff;
+    }
+    .copy{
+        margin-top: 20px;
+    }
+    .copy i{
+        font-size: .5em;
+    }
 }

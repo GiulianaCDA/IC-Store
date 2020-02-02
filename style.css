@@ -12,7 +12,7 @@ ul{
 img{
     max-width: 100%;
 }
-/HEADER/
+
 .l1 {
     height: 5px;
 }
@@ -71,7 +71,7 @@ h1{
     transition: all .2s linear;
     border-radius: 3px;
 }
-/BARRA DE PESQUISA GRADIENT/
+
 .topSearchBar {
     display: none;
 }
