@@ -97,6 +97,13 @@ footer .copy{
     margin-left: 39%;
     margin-bottom: 40px;
 }
+
+.l4 {
+    margin-top: 15px;
+    height: 3px;
+    background-image: none !important;
+    background-color: #afafaf;
+}
 .line {
     background-image: linear-gradient(to right, #387cad, #54dabf);
     width: 100%;
@@ -266,15 +273,58 @@ footer .copy{
 .item {
     background-color: #FFF;
     width: 20%;
-    height: 250px;
+    height: 330px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
 
+.productName, .productPricing {
+    width: 100%;
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.productTitle {
+    padding-left: 10px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.productPricing button {
+    border: none;
+    background-color: transparent;
+    padding-right: 15px;
+}
+
+.productPrice {
+    padding-left: 10px;
+    color: #4ec2bb;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.fa-cart-plus:before {
+    font-size: 20px;
+    content: "\f217";
+    color: #387dad
+}
+
+/*  Star configs */
+.fa-star:before {
+    content: "\f005";
+    font-size: 12px;
+}
+
+.stars {
+    padding-right: 15px;
+}
+
 .checked {
-  color: orange;
+    color: orange;
 }
 
 /* Slideshow container */
