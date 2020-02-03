@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/2774b2caff.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap" rel="stylesheet">
+    <link rel="icon" href="icon.png">
+    <title>IC Store</title>
+</head>
+
+<body>
+<div class="line l1"></div>
+
+<header class="mainMenu">
+    <ul class="firstHalf menu">
+        <li><a href="index.html">inicio</a></li>
+        <li><a href="index.html">produtos</a></li>
+        <li><a href="contato/contato.html">contato</a></li>
+    </ul>
+
+    <h1><img src="logoOficial.png" class="logo-desktop"><img src="logowhite.png" class="logo-mobile"></h1>
+    <nav class="menu-mobile menu">
+        <ul>
+            <li><a href="index.html">início</a></li>
+            <li><a href="index.html">produtos</a></li>
+            <li><a href="contato/contato.html">contato</a></li>
+            <li><a href="sobre/sobre.html">sobre</a></li>
+        </ul>
+    </nav>
+    <ul class="secondHalf menu">
+        <li><a href="help/help.html">ajuda</a></li>
+        <li><a href="sobre/sobre.html">sobre</a></li>
+        <li><a href="login/login.html">login</a></li>
+    </ul>
+</header>
+<div class="line l2">
+    <div class="topSearchBar">
+        <div id="tsb1">
+            <ul>
+                <li><a href=""><i class="fab fa-facebook-f"></i></a></li>
+                <li><a href=""><i class="fab fa-instagram"></i></a></li>
+                <li><a href=""><i class="fab fa-twitter"></i></a></li>
+                <li><a href=""><i class="fas fa-envelope"></i></a></li>
+                <li><a href=""><i class="fab fa-whatsapp"></i></a></li>
+            </ul>
+        </div>
+        <div id="tsb2">
+            <a href=""></a><img src="lupa_transparent.png" height="30">
+            <form action="">
+                <input type="text" placeholder="PESQUISAR">
+            </form>
+        </div>
+    </div>
+</div>
+
+    <div id="homepage">
+        <div id="block">
+            <p>BLACK</p>
+            <p>FRIDAY</p>
+            <button>CONFERIR <i class="fas fa-arrow-right"></i></button>
+        </div>
+        <div class="slideshow-container">
+        
+            <div class="mySlides fade">
+                <img src="e.png" style="float: right;" height="390">
+            </div>
+        
+            <div class="mySlides fade">
+                <img src="e2.png" style="float: right;" height="360" width="600">
+            </div>
+        
+
+        </div>
+        <br>
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+
+    <div id="homeBody">
+        <div id="produtosavenda">
+            <p>PRODUTOS A VENDA</p>
+            <div class="line l3"></div>
+        </div>
+    </div>
+
+    <div class="items">
+        <div class="item">
+            <img src="likeagirlroxa.png" height="200">
+            
+            <div class="line l4"></div>
+
+            <div class="productName">
+                <div class="productTitle">
+                    <p>Code like a girl roxa</p>
+                </div>
+                <div class="stars">
+                    <span class="fa fa-star checked" id="star26"></span>
+                    <span class="fa fa-star checked" id="star27"></span>
+                    <span class="fa fa-star checked" id="star28"></span>
+                    <span class="fa fa-star" id="star29"></span>
+                    <span class="fa fa-star trigger6" id="star30" onclick="rate(6)"></span>
+                </div>
+            </div>
+
+            <div class="productPricing">
+                <div class="productPrice">
+                    <p>R$: 24,00</p>
+                </div>
+                <div>
+                    <button onclick="showbuy('Camisa Code Like a Girl - Roxa', 'R$: 24,00')"><i class="fas fa-cart-plus"></i></button>
+                </div>
+            </div>
+        </div>
+        <div class="item">
+            <img src="institutocamisa.png" height="200">
+            
+            <div class="line l4"></div>
+            
+            <div class="productName">
+                <div class="productTitle">
+                    <p>Camisa do Instituto</p>
+                </div>
+                <div class="stars">
+                    <span class="fa fa-star checked" id="star26"></span>
+                    <span class="fa fa-star checked" id="star27"></span>
+                    <span class="fa fa-star checked" id="star28"></span>
+                    <span class="fa fa-star" id="star29"></span>
+                    <span class="fa fa-star trigger6" id="star30" onclick="rate(6)"></span>
+                </div>
+            </div>
+
+            <div class="productPricing">
+                <div class="productPrice">
+                    <p>R$: 24,00</p>
+                </div>
+                <div>
+                    <button onclick="showbuy('Camisa Instituto de Computação', 'R$: 24,00')"><i class="fas fa-cart-plus"></i></button>
+                </div>
+            </div>
+        </div>
+        
+        <div class="item">
+            <img src="likeagirlblack.png" height="200">
+            
+            <div class="line l4"></div>
+            
+            <div class="productName">
+                <div class="productTitle">
+                    <p>Code like a girl preta</p>
+                </div>
+                <div class="stars">
+                    <span class="fa fa-star checked" id="star26"></span>
+                    <span class="fa fa-star checked" id="star27"></span>
+                    <span class="fa fa-star checked" id="star28"></span>
+                    <span class="fa fa-star" id="star29"></span>
+                    <span class="fa fa-star trigger6" id="star30" onclick="rate(6)"></span>
+                </div>
+            </div>
+
+            <div class="productPricing">
+                <div class="productPrice">
+                    <p>R$: 24,00</p>
+                </div>
+                <div>
+                    <button onclick="showbuy('Camisa Code Like a Girl - Preta', 'R$: 24,00')"><i class="fas fa-cart-plus"></i></button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    
+    <div class="items" style="margin-top: 50px; margin-bottom: 50px;">
+        
+        <div class="item">
+            <img src="camisaoctacore.png" height="200">
+            
+            <div class="line l4"></div>
+            
+            <div class="productName">
+                <div class="productTitle">
+                    <p>Camisa Octacore</p>
+                </div>
+                <div class="stars">
+                    <span class="fa fa-star checked" id="star26"></span>
+                    <span class="fa fa-star checked" id="star27"></span>
+                    <span class="fa fa-star checked" id="star28"></span>
+                    <span class="fa fa-star" id="star29"></span>
+                    <span class="fa fa-star trigger6" id="star30" onclick="rate(6)"></span>
+                </div>
+            </div>
+
+            <div class="productPricing">
+                <div class="productPrice">
+                    <p>R$: 35,00</p>
+                </div>
+                <div>
+                    <button onclick="showbuy('Camisa Atlética Octacore', 'R$: 35,00')"><i class="fas fa-cart-plus"></i></button>
+                </div>
+            </div>
+        </div>
+        <div class="item">
+
+            <img src="camisaazul.png" height="200">
+            
+            <div class="line l4"></div>
+            
+            <div class="productName">
+                <div class="productTitle">
+                    <p>Camisa Azul Ciência</p>
+                </div>
+                <div class="stars">
+                    <span class="fa fa-star checked" id="star26"></span>
+                    <span class="fa fa-star checked" id="star27"></span>
+                    <span class="fa fa-star checked" id="star28"></span>
+                    <span class="fa fa-star" id="star29"></span>
+                    <span class="fa fa-star trigger6" id="star30" onclick="rate(6)"></span>
+                </div>
+            </div>
+
+            <div class="productPricing">
+                <div class="productPrice">
+                    <p>R$: 24,00</p>
+                </div>
+                <div>
+                    <button onclick="showbuy('Camisa Azul Ciência da computação', 'R$: 24,00')"><i class="fas fa-cart-plus"></i></button>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="item">
+            <img src="caneca.png" height="180">
+            
+            <div class="line l4"></div>
+            
+            <div class="productName">
+                <div class="productTitle">
+                    <p>Caneca Octacore</p>
+                </div>
+                <div class="stars">
+                    <span class="fa fa-star checked" id="star26"></span>
+                    <span class="fa fa-star checked" id="star27"></span>
+                    <span class="fa fa-star checked" id="star28"></span>
+                    <span class="fa fa-star" id="star29"></span>
+                    <span class="fa fa-star trigger6" id="star30" onclick="rate(6)"></span>
+                </div>
+            </div>
+
+            <div class="productPricing">
+                <div class="productPrice">
+                    <p>R$: 15,00</p>
+                </div>
+                <div>
+                    <button onclick="showbuy('Caneca Octacore', 'R$: 15,00')"><i class="fas fa-cart-plus"></i></button>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div id="buy-container" style="display: none;">
+        <div class="main-container">
+            <strong>Você está prestes a comprar:</strong>
+                <p id="itemName"></p>
+                <p id="itemPrice"></p>
+                <p id="user"></p>
+            <button id="buyButton" onclick="closebuy()">Comprar!</button>
+        </div>
+        <button type="button" onClick="closebuy()">CLOSE</button>
+    </div>
+
+    <footer>
+        <div class="text-footer">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam repellendus labore nisi, at sapiente commodi
+                delectus soluta, nihil possimus eligendi iure itaque asperiores? Est facilis assumenda et aut.</p>
+        </div>
+        <div class="team">
+            <ul class="team1">
+                <li>Giuliana</li>
+                <li>Matheus</li>
+                <li>Gabriel</li>
+            </ul>
+            <ul class="team2">
+                <li>Rodrigo</li>
+                <li>Bruno</li>
+                <li>Lucas</li>
+            </ul>
+        </div>
+        <div class="social-media">
+            <ul>
+                <p>Nossas redes sociais: </p>
+                <li><a href=""><i class="fab fa-facebook-f"></i></a></li>
+                <li><a href=""><i class="fab fa-instagram"></i></a></li>
+                <li><a href=""><i class="fab fa-twitter"></i></a></li>
+                <li><a href=""><i class="fas fa-envelope"></i></a></li>
+                <li><a href=""><i class="fab fa-whatsapp"></i></a></li>
+            </ul>
+        </div>
+        <p class="copy">CopyRight <i class="fas fa-copyright"></i>. Todos os direitos reservados. 2020.</p>
+    </footer>
+
+<script src="script.js"></script>
+</body>
+
+</html>

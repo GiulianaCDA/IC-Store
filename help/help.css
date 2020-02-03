@@ -1,0 +1,418 @@
+body {
+    padding: 0;
+    margin: 0;
+    outline: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: 'Roboto', sans-serif;
+}
+ul{
+    list-style: none;
+    margin: 0;
+}
+img{
+    max-width: 100%;
+}
+/*HEADER*/
+.l1 {
+    height: 5px;
+}
+
+.l2 {
+    height: 30px;
+    padding: 3px;
+}
+
+.line {
+    background-image: linear-gradient(to right, #387cad, #54dabf);
+    overflow: hidden;
+}
+.mainMenu{
+    width: 100%;
+    background-image: linear-gradient(to right, #387cad, #54dabf);
+    overflow: hidden;
+}
+.firstHalf{
+    display: none;
+}
+.secondHalf{
+    display: none;
+}
+h1{
+    text-align: center;
+    margin: 0;
+}
+.logo-desktop{
+    display: none;
+}
+.logo-mobile{
+    margin-top: 10px;
+    cursor: pointer;
+}
+.menu{
+    text-align: center;
+}
+.menu ul{
+    margin-top: 20px;
+}
+.menu ul li{
+    display: inline-block;
+}
+.menu ul li a{
+    text-decoration: none;
+    font-size: .7em;
+    font-family: Roboto, sans-serif;
+    color: #fff;
+    text-transform: uppercase;
+    margin-right: 40px;
+    padding: 3px;
+}
+.menu li a:hover{
+    background: #46abb6;
+    transition: all .2s linear;
+    border-radius: 3px;
+}
+.topSearchBar {
+    display: none;
+}
+h2{
+    font-weight: bold;
+    color: #3f93b3;
+    font-size: 25px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.item{
+    width: 90%;
+    background: #f1f1f1;
+    margin: 30px 0px 30px 25px;
+    font-size: .7em;
+    border-radius: 7px;
+    text-align: center;
+}
+h3{
+    color: #fff;
+    background: #387dad;
+    text-align: center;
+    padding: 15px;
+    text-transform: uppercase;
+
+}
+article .sentence{
+    padding: 30px;
+}
+.helpbody{
+    margin-top: 7%;
+}
+.helpbody .l3{
+    background-color: #9f9f9f;
+    height: 3px;
+    width: 43%;
+    margin-left: 29%;
+    margin-bottom: 40px;
+}
+.login{
+    margin-top: 5%;
+    width: 100%;
+    background-image: url('iclindo.jpg');
+    overflow: hidden;
+}
+.login-block {
+    background-color: #fff;
+    width: 80%;
+    margin-left: 7%;
+    border-radius: 10px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    padding: 20px;
+}
+.login-block .nonSolved{
+    font-size: 1.2em;
+    color: #387dad;
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+#loginBar {
+    padding: 0;
+    background-color: #3d88b0;
+    width: 100%;
+    height: 40px;
+    font-family: 'Roboto', sans-serif, Arial;
+    line-height: 40px;
+    font-size: 25px;
+    color: #FFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.login .s1{
+    font-size: .7em;
+    margin-left: 20px;
+    margin-top: 30px;
+}
+.login form {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.login form button {
+    background-image: linear-gradient(to right, #387cad, #54dabf);
+    border: 0;
+    width: 100%;
+    margin-top: 30px;
+    color: #FFF;
+    font-size: .7em;
+    padding: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+.login form button:hover{
+    background-image: linear-gradient(to right, #5594c1, #7fe6d2);
+}
+.login input {
+    width: 100%;
+    border: 0;
+    border-bottom: 1px solid #ccc;
+    border-bottom-width: 1.7px;
+    border-radius: 0px;
+}
+.name, .msg {
+    display: inline;
+    flex-direction: row;
+}
+
+.name, .msg p {
+    color: #989898;
+    font-size: 15px;
+}
+
+.msg textarea {
+    border: none;
+    width: 100%;
+    border-bottom: 2px solid #ddd;
+} 
+footer{
+    background: #54dabf;
+    color: #fff;
+    overflow: hidden;
+    font-size: .7em;
+    padding: 10px 35px;
+    font-family: 'Roboto', sans-serif;
+}
+.text-footer{
+    text-align: justify;
+}
+.social-media{
+    text-align: center;
+    margin-right: 55px;
+}
+.social-media p{
+    font-size: 1.2em;
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.social-media img{
+    height: 50px;
+}
+.social-media ul{
+    display: inline-block;
+}
+.social-media ul li{
+    display: inline;
+}
+li i{
+    color: #fff;
+}
+li i:hover{
+    transform: translateY(-5px);
+    transition: all .2s linear;
+}
+footer i{
+    font-size: 1.6em;
+    margin-right: 10px;
+    color: #fff;
+}
+footer .team p{
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.team{
+    display: none;
+}
+footer .copy{
+    margin-top: 30px;
+    text-align: center;
+}
+.copy i{
+    font-size: .5em;
+}
+
+@media ( min-width: 1024px ) {
+    .menu{
+        display: inline;
+        text-transform: uppercase;
+    }
+    h1{
+        display: inline;
+    }
+    .logo-mobile{
+        display: none;
+    }
+    .logo-desktop{
+        display: inherit;
+        cursor: pointer;
+        margin-left: 55px;
+    }
+    .menu-mobile{
+        display: none;
+    }
+    .mainMenu{
+        padding-top: 15px;
+        padding-bottom: 15px;
+        background: #fff;
+    }
+    .mainMenu ul{
+        display: inline-flex;
+        margin-top: 15px;
+    }
+    .mainMenu .firstHalf{
+        margin-left: 20px;
+    }
+    .mainMenu li a{
+        font-size: .7em;
+        font-family: 'Roboto', sans-serif;
+        color: #393535;
+        text-decoration: none;
+        margin-right: 100px;
+        padding: 5px;
+    }
+    .mainMenu li a:hover{
+        background: #daf5f0;
+    }
+    .firstHalf {
+        float: left;
+        display: inline-block;
+    }
+    .secondHalf {
+        float: right;
+        display: inline-block;
+    }
+    .topSearchBar {
+        display: inline;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    #tsb1 {
+        float: left;
+        height: 30px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    #tsb1 ul {
+        list-style: none;
+    }
+
+    #tsb1 li {
+        display: inline;
+    }
+    #tsb2 {
+        float: right;
+        margin-right: 5%;
+    }
+
+    #tsb2 form {
+        display: inline;
+    }
+
+    #tsb2 input {
+        vertical-align: super;
+        color: #fff;
+    }
+
+    #tsb2 ::placeholder {
+        color: #fff;
+    }
+    .topSearchBar input {
+        background: transparent;
+        border: 0;
+        border-bottom: 1px solid #fff;
+        border-radius: 0px;
+    }
+    li i{
+        color: #fff;
+    }
+    li i:hover{
+        transform: translateY(-5px);
+        transition: all .2s linear;
+    }
+    .helpbody{
+        margin-top: 5%;
+        overflow: hidden;
+    }
+    .helpbody .l3 {
+        width: 30%;
+        margin-left: 35%;
+    }
+    h3{
+        margin-top: -0px;
+        border-radius: 2px;
+    }
+    .item{
+        width: 25%;
+        float: left;
+        height: 220px;
+        margin-left: 6%;
+    }
+    .login{
+        height: 490px;
+    }
+    .login-block{
+        margin-top: 2%;
+        width: 35%;
+        margin-left: 30%;
+    }
+    textarea{
+        height: 5px;
+    }
+    footer{
+        padding-left: 25px;
+        padding-right: 25px;
+        padding-top: 40px;
+        padding-bottom: 10px;
+    }
+    .text-footer{
+        width: 35%;
+        text-align: center;
+        float: left;
+    }
+    .team{
+        display: inherit;
+        float: left;
+        margin: 20px 100px;
+        font-weight: bold;
+    }
+    .team1{
+        float: left;
+    }
+    .team2{
+        float: right;
+    }
+    .team ul{
+        list-style: circle;
+    }
+    footer i{
+        color: #fff;
+    }
+    .copy{
+        margin-top: 20px;
+    }
+    .copy i{
+        font-size: .5em;
+    }
+}

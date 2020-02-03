@@ -1,0 +1,398 @@
+body {
+    padding: 0;
+    margin: 0;
+    outline: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+ul{
+    list-style: none;
+    margin: 0;
+}
+img{
+    max-width: 100%;
+}
+/*HEADER*/
+.l1 {
+    height: 5px;
+}
+
+.l2 {
+    height: 30px;
+    padding: 3px;
+}
+
+.line {
+    background-image: linear-gradient(to right, #387cad, #54dabf);
+    overflow: hidden;
+}
+.mainMenu{
+    width: 100%;
+    background-image: linear-gradient(to right, #387cad, #54dabf);
+    overflow: hidden;
+}
+.firstHalf{
+    display: none;
+}
+.secondHalf{
+    display: none;
+}
+h1{
+    text-align: center;
+    margin: 0;
+}
+.logo-desktop{
+    display: none;
+}
+.logo-mobile{
+    margin-top: 10px;
+    cursor: pointer;
+}
+.menu{
+    text-align: center;
+}
+.menu ul{
+    margin-top: 20px;
+}
+.menu ul li{
+    display: inline-block;
+}
+.menu ul li a{
+    text-decoration: none;
+    font-size: .7em;
+    font-family: Roboto, sans-serif;
+    color: #fff;
+    text-transform: uppercase;
+    margin-right: 40px;
+    padding: 3px;
+}
+.menu li a:hover{
+    background: #46abb6;
+    transition: all .2s linear;
+    border-radius: 3px;
+}
+/*BARRA DE PESQUISA GRADIENT*/
+.topSearchBar {
+    display: none;
+}
+#login{
+    background-image: linear-gradient(to right, #387cad, #54dabf);
+    overflow: hidden;
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+    text-align: center;
+    padding: 80px 40px 0 20px;
+}
+.loginBar{
+    font-size: .8em;
+    display: none;
+}
+.login-block input{
+    width: 80%;
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid #fff;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+.login-block ::placeholder{
+    color: #fff;
+    text-transform: uppercase;
+}
+.remember a{
+    display: none;
+}
+.remember a:hover{
+    color: #ccc;
+}
+.centerized{
+    text-align: center;
+}
+.centerized button{
+    width: 50%;
+    border: 2px solid #fff;
+    color: #387cad;
+    background: #fff;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    padding: 10px;
+    margin-top: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.centerized button:hover{
+    background: transparent;
+    color: #fff;
+    transition: all .4s linear;
+}
+footer{
+    background: #54dabf;
+    color: #fff;
+    overflow: hidden;
+    font-size: .7em;
+    padding: 10px 35px;
+    font-family: 'Roboto', sans-serif;
+}
+.text-footer{
+    text-align: justify;
+}
+.social-media{
+    text-align: center;
+    margin-right: 55px;
+}
+.social-media p{
+    font-size: 1.2em;
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.social-media img{
+    height: 50px;
+}
+.social-media ul{
+    display: inline-block;
+}
+.social-media ul li{
+    display: inline;
+}
+li i{
+    color: #fff;
+}
+li i:hover{
+    transform: translateY(-5px);
+    transition: all .2s linear;
+}
+footer i{
+    font-size: 1.6em;
+    margin-right: 10px;
+    color: #fff;
+}
+footer .team p{
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.team{
+    display: none;
+}
+footer .copy{
+    margin-top: 30px;
+    text-align: center;
+}
+.copy i{
+    font-size: .5em;
+}
+@media ( min-width: 1024px ) {
+    .menu{
+        display: inline;
+        text-transform: uppercase;
+    }
+    h1{
+        display: inline;
+    }
+    .logo-mobile{
+        display: none;
+    }
+    .logo-desktop{
+        display: inherit;
+        cursor: pointer;
+        margin-left: 55px;
+    }
+    .menu-mobile{
+        display: none;
+    }
+    .mainMenu{
+        padding-top: 15px;
+        padding-bottom: 15px;
+        background: #fff;
+    }
+    .mainMenu ul{
+        display: inline-flex;
+        margin-top: 15px;
+    }
+    .mainMenu .firstHalf{
+        margin-left: 20px;
+    }
+    .mainMenu li a{
+        font-size: .7em;
+        font-family: 'Roboto', sans-serif;
+        color: #393535;
+        text-decoration: none;
+        margin-right: 100px;
+        padding: 5px;
+    }
+    .mainMenu li a:hover{
+        background: #daf5f0;
+    }
+    .firstHalf {
+        float: left;
+        display: inline-block;
+    }
+    .secondHalf {
+        float: right;
+        display: inline-block;
+    }
+    .topSearchBar {
+        display: inline;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    #tsb1 {
+        float: left;
+        height: 30px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    #tsb1 ul {
+        list-style: none;
+    }
+
+    #tsb1 li {
+        display: inline;
+    }
+    #tsb2 {
+        float: right;
+        margin-right: 5%;
+    }
+
+    #tsb2 form {
+        display: inline;
+    }
+
+    #tsb2 input {
+        vertical-align: super;
+        color: #fff;
+    }
+
+    #tsb2 ::placeholder {
+        color: #fff;
+    }
+
+    .topSearchBar input {
+        background: transparent;
+        border: 0;
+        border-bottom: 1px solid #fff;
+        border-radius: 0px;
+    }
+
+    #socialMedia ul {
+        list-style: none;
+    }
+
+    #socialMedia li {
+        display: inline;
+    }
+    #login {
+        background-image: url('login_wallpaper.jpg');
+        overflow: hidden;
+        padding: 0px 40px 0 20px;
+        text-align: inherit;
+    }
+    .login-block ::placeholder{
+        color: #393535;
+    }
+    #login form {
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    #login form button {
+        margin-top: 20px;
+        background-image: linear-gradient(to right, #387cad, #54dabf);
+        border: 0;
+        width: 100%;
+        font-size: .8em;
+        border-radius: 0;
+        color: #FFF;
+        padding-bottom: 10px;
+    }
+    #login form button:hover{
+        background-image: linear-gradient(to right, #5594c1, #7fe6d2);
+    }
+    #login input {
+        width: 100%;
+        border: 0;
+        border-bottom: 1px solid #ccc;
+        border-bottom-width: 1.7px;
+        border-radius: 0px;
+    }
+    #login input::placeholder{
+        font-size: .5em;
+    }
+    .login-block {
+        background-color: #fff;
+        width: 30%;
+        margin: 5% 35%;
+        border-radius: 10px;
+    }
+
+    .login-block h1{
+        font-size: 15px;
+        text-align: center;
+        color: #FFF;
+    }
+
+    .loginBar {
+        padding: 0;
+        background-image: url(backlogin.jpg);
+        width: 100%;
+        height: 70px;
+        font-family: Roboto, sans-serif;
+        line-height: 40px;
+        font-size: 25px;
+        color: #FFF;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .remember a {
+        color: #3d88b0; 
+        font-size: .5em;
+        text-decoration: none;
+        text-transform: uppercase;
+        display: inherit;
+    }
+    .remember a:hover {
+        color: #53d7bf;
+        transition: color .3s linear;
+    }
+    footer{
+        padding-left: 25px;
+        padding-right: 25px;
+        padding-top: 40px;
+        padding-bottom: 10px;
+    }
+    .text-footer{
+        width: 35%;
+        text-align: center;
+        float: left;
+    }
+    .team{
+        display: inherit;
+        float: left;
+        margin: 20px 100px;
+        font-weight: bold;
+    }
+    .team1{
+        float: left;
+    }
+    .team2{
+        float: right;
+    }
+    .team ul{
+        list-style: circle;
+    }
+    footer i{
+        color: #fff;
+    }
+    .copy{
+        margin-top: 20px;
+    }
+    .copy i{
+        font-size: .5em;
+    }
+}
