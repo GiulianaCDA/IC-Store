@@ -83,4 +83,8 @@ function showbuy(productName, productPrice) {
     
     priceDisplay = document.getElementById("itemPrice");
     priceDisplay.innerHTML = productPrice;
+
+    userDisplay = document.getElementById("user");
+    username = localStorage.getItem('email');
+    userDisplay.innerHTML = "Usuário : " + username;
 }

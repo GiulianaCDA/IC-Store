@@ -62,11 +62,11 @@
             <div class="loginBar">
                 <p>LOGIN</p>
             </div>
-            <form action="">
-                <input type="text" class="inpt" placeholder="Email">
+            <form id="loginForm">
+                <input type="text" class="inpt" placeholder="Email" id="form-email" name="email">
                 <input type="password" class="inpt" placeholder="Senha">
                 <div class="remember"><a href="">forgot your password?</a></div>
-                <div class="centerized"><button>login now!</button></div>
+                <div class="centerized"><button onclick="handleLogin()">login now!</button></div>
             </form>
         </div>
     </main>
@@ -101,6 +101,7 @@
         </div>
         <p class="copy">CopyRight <i class="fas fa-copyright"></i>. Todos os direitos reservados. 2020.</p>
     </footer>
+    <script src="login.js"></script>
 </body>
 
 </html>
