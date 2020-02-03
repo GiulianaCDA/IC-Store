@@ -9,12 +9,12 @@
     <script src="https://kit.fontawesome.com/2774b2caff.js" crossorigin="anonymous"></script>
     <link rel="icon" href="icon.png">
     <link rel="stylesheet" href="help.css">
-    <title>IC Store</title>
+    <title>IC Store | Ajuda</title>
 </head>
 
 <body>
 
-<div class="line l1"></div>
+    <div class="line l1"></div>
 
     <header class="mainMenu">
         <ul class="firstHalf menu">
@@ -27,7 +27,7 @@
         <nav class="menu-mobile menu">
             <ul>
                 <li><a href="../index.html">início</a></li>
-                <li><a href="../index.html">produtos</a></li>
+                <li><a href="../login/login.html">login</a></li>
                 <li><a href="../contato/contato.html">contato</a></li>
                 <li><a href="../sobre/sobre.html">sobre</a></li>
             </ul>
@@ -50,7 +50,7 @@
                 </ul>
             </div>
             <div id="tsb2">
-                <a href=""></a><img src="lupa_transparent.png" height="30">
+                <a href=""><img src="lupa_transparent.png" height="30"></a>
                 <form action="">
                     <input type="text" placeholder="PESQUISAR">
                 </form>
@@ -58,79 +58,73 @@
         </div>
     </div>
 
-    <div id="homeBody">
-        <div id="produtosavenda">
-            <p>AJUDA & SUPORTE</p>
-            <div class="line l3"></div>
-        </div>
-    </div>
-
-    <div class="items">
-        <div class="item">
-            <div class="bar">
-                <p>Reembolso</p>
-            </div>
-            <p class="sentence">Aqui você pode solicitar o reembolso de qualquer item, no prazo máximo de 30 dias após a compra.</p>
-        </div>
-        <div class="item">
-            <div class="bar">
-                <p>Troca</p>
-            </div>
-            <p class="sentence">Comprou uma camisa que ficou grande demais ? Não tem problema, agende aqui sua troca.</p>
-        </div>
-        <div class="item">
-            <div class="bar">
-                <p>Reclamações</p>
-            </div>
+    <main class="helpbody">
+        <h2>Ajuda & suporte</h2>
+        <div class="l3"></div>
+        <article class="item">
+            <h3>Reembolso</h3>
+            <p class="sentence">Aqui você pode solicitar o reembolso de qualquer item, no prazo máximo de 30 dias após a
+                compra.</p>
+        </article>
+        </article>
+        <article class="item">
+            <h3>Troca</h3>
+            <p class="sentence">Comprou uma camisa que ficou grande demais ? Não tem problema, agende aqui sua troca.
+            </p>
+        </article>
+        <article class="item">
+            <h3>Reclamações</h3>
             <p class="sentence">Algo te incomodou ? Deixe sua reclamação abaixo.</p>
+        </article>
+    </main>
+
+    <div class="login">
+        <div class="login-block">
+            <p class="nonSolved">problema não resolvido?</p>
+            <p class="sentence s1">Conte-nos o seu problema e tentaremos resolvê-lo no menor prazo de tempo possível</p>
+            <form action="">
+                <div class="name">
+                    <p>NOME: </p><input type="text" class="inpt">
+                </div>
+
+                <div class="msg">
+                    <p>MENSAGEM: </p><textarea name="msg" cols="40" rows="3"></textarea>
+                </div>
+                <div class="centerized"><button>reportar problema!</button></div>
+            </form>
         </div>
     </div>
-    
-    <div class="login">
-                <div id="login-block">
-                    <p id="nonSolved">PROBLEMA NÃO RESOLVIDO?</p>
-                    <p class="sentence s1">Conte-nos o seu problema.</p>
-                    <form action="">
-                        <div id="name"><p>NOME: </p><input type="text" class="inpt"></div>
-                        
-                        <div id="msg">
-                            <p>MENSAGEM: </p><textarea name="msg" cols="40" rows="3"></textarea>
-                        </div>
-                        <div class="centerized"><button>REPORTAR PROBLEMA!</button></div>
-                    </form>
-    </div>
-    </div>
 
-        <footer>
-            <div class="text-footer">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam repellendus labore nisi, at sapiente
-                    commodi delectus soluta, nihil possimus eligendi iure itaque asperiores? Est facilis assumenda et aut.
-                </p>
-            </div>
-            <div class="team">
-                <ul class="team1">
-                    <li>Giuliana</li>
-                    <li>Matheus</li>
-                    <li>Gabriel</li>
-                </ul>
-                <ul class="team2">
-                    <li>Rodrigo</li>
-                    <li>Bruno</li>
-                    <li>Lucas</li>
-                </ul>
-            </div>
-            <div class="social-media">
-                <ul>
-                    <p>Nossas redes sociais: </p>
-                    <li><a href=""><i class="fab fa-facebook-f"></i></a></li>
-                    <li><a href=""><i class="fab fa-instagram"></i></a></li>
-                    <li><a href=""><i class="fab fa-twitter"></i></a></li>
-                    <li><a href=""><i class="fas fa-envelope"></i></a></li>
-                    <li><a href=""><i class="fab fa-whatsapp"></i></a></li>
-                </ul>
-            </div>
-            <p class="copy">CopyRight <i class="fas fa-copyright"></i>. Todos os direitos reservados. 2020.</p>
-        </footer>
+    <footer>
+        <div class="text-footer">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam repellendus labore nisi, at sapiente
+                commodi delectus soluta, nihil possimus eligendi iure itaque asperiores? Est facilis assumenda et aut.
+            </p>
+        </div>
+        <div class="team">
+            <ul class="team1">
+                <li>Giuliana</li>
+                <li>Matheus</li>
+                <li>Gabriel</li>
+            </ul>
+            <ul class="team2">
+                <li>Rodrigo</li>
+                <li>Bruno</li>
+                <li>Lucas</li>
+            </ul>
+        </div>
+        <div class="social-media">
+            <ul>
+                <p>Nossas redes sociais: </p>
+                <li><a href=""><i class="fab fa-facebook-f"></i></a></li>
+                <li><a href=""><i class="fab fa-instagram"></i></a></li>
+                <li><a href=""><i class="fab fa-twitter"></i></a></li>
+                <li><a href=""><i class="fas fa-envelope"></i></a></li>
+                <li><a href=""><i class="fab fa-whatsapp"></i></a></li>
+            </ul>
+        </div>
+        <p class="copy">CopyRight <i class="fas fa-copyright"></i>. Todos os direitos reservados. 2020.</p>
+    </footer>
 </body>
 
 </html>

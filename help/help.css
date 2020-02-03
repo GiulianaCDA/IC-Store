@@ -3,11 +3,198 @@ body {
     margin: 0;
     outline: 0;
     box-sizing: border-box;
-    background-color: #e6e6e6;
-    font-family: 'Roboto', sans-serif, Arial;
+    list-style: none;
+    font-family: 'Roboto', sans-serif;
+}
+ul{
+    list-style: none;
+    margin: 0;
+}
+img{
+    max-width: 100%;
+}
+/*HEADER*/
+.l1 {
+    height: 5px;
 }
 
-footer {
+.l2 {
+    height: 30px;
+    padding: 3px;
+}
+
+.line {
+    background-image: linear-gradient(to right, #387cad, #54dabf);
+    overflow: hidden;
+}
+.mainMenu{
+    width: 100%;
+    background-image: linear-gradient(to right, #387cad, #54dabf);
+    overflow: hidden;
+}
+.firstHalf{
+    display: none;
+}
+.secondHalf{
+    display: none;
+}
+h1{
+    text-align: center;
+    margin: 0;
+}
+.logo-desktop{
+    display: none;
+}
+.logo-mobile{
+    margin-top: 10px;
+    cursor: pointer;
+}
+.menu{
+    text-align: center;
+}
+.menu ul{
+    margin-top: 20px;
+}
+.menu ul li{
+    display: inline-block;
+}
+.menu ul li a{
+    text-decoration: none;
+    font-size: .7em;
+    font-family: Roboto, sans-serif;
+    color: #fff;
+    text-transform: uppercase;
+    margin-right: 40px;
+    padding: 3px;
+}
+.menu li a:hover{
+    background: #46abb6;
+    transition: all .2s linear;
+    border-radius: 3px;
+}
+.topSearchBar {
+    display: none;
+}
+h2{
+    font-weight: bold;
+    color: #3f93b3;
+    font-size: 25px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.item{
+    width: 90%;
+    background: #f1f1f1;
+    margin: 30px 0px 30px 25px;
+    font-size: .7em;
+    border-radius: 7px;
+    text-align: center;
+}
+h3{
+    color: #fff;
+    background: #387dad;
+    text-align: center;
+    padding: 15px;
+    text-transform: uppercase;
+
+}
+article .sentence{
+    padding: 30px;
+}
+.helpbody{
+    margin-top: 7%;
+}
+.helpbody .l3{
+    background-color: #9f9f9f;
+    height: 3px;
+    width: 43%;
+    margin-left: 29%;
+    margin-bottom: 40px;
+}
+.login{
+    margin-top: 5%;
+    width: 100%;
+    background-image: url('iclindo.jpg');
+    overflow: hidden;
+}
+.login-block {
+    background-color: #fff;
+    width: 80%;
+    margin-left: 7%;
+    border-radius: 10px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    padding: 20px;
+}
+.login-block .nonSolved{
+    font-size: 1.2em;
+    color: #387dad;
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+#loginBar {
+    padding: 0;
+    background-color: #3d88b0;
+    width: 100%;
+    height: 40px;
+    font-family: 'Roboto', sans-serif, Arial;
+    line-height: 40px;
+    font-size: 25px;
+    color: #FFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.login .s1{
+    font-size: .7em;
+    margin-left: 20px;
+    margin-top: 30px;
+}
+.login form {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.login form button {
+    background-image: linear-gradient(to right, #387cad, #54dabf);
+    border: 0;
+    width: 100%;
+    margin-top: 30px;
+    color: #FFF;
+    font-size: .7em;
+    padding: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+.login form button:hover{
+    background-image: linear-gradient(to right, #5594c1, #7fe6d2);
+}
+.login input {
+    width: 100%;
+    border: 0;
+    border-bottom: 1px solid #ccc;
+    border-bottom-width: 1.7px;
+    border-radius: 0px;
+}
+.name, .msg {
+    display: inline;
+    flex-direction: row;
+}
+
+.name, .msg p {
+    color: #989898;
+    font-size: 15px;
+}
+
+.msg textarea {
+    border: none;
+    width: 100%;
+    border-bottom: 2px solid #ddd;
+} 
+footer{
     background: #54dabf;
     color: #fff;
     overflow: hidden;
@@ -15,11 +202,9 @@ footer {
     padding: 10px 35px;
     font-family: 'Roboto', sans-serif;
 }
-
 .text-footer{
     text-align: justify;
 }
-
 .social-media{
     text-align: center;
     margin-right: 55px;
@@ -66,378 +251,6 @@ footer .copy{
     font-size: .5em;
 }
 
-.centerized {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-
-.l1 {
-    height: 5px;
-}
-
-.l2 {
-    height: 30px;
-    padding: 3px;
-}
-
-.l3 {
-    background-image: none !important;
-    background-color: #9f9f9f;
-    height: 3px;
-    width: 23% !important;
-    margin-left: 39%;
-    margin-bottom: 40px;
-}
-.line {
-    background-image: linear-gradient(to right, #387cad, #54dabf);
-    width: 100%;
-    overflow: hidden;
-}
-
-.mainMenu {
-    background-color: #FFF;
-    width: 100%;
-    overflow: hidden;
-    display: flex;
-    justify-content: space-between;
-}
-
-.mainMenu a {
-    text-decoration: none;
-    font-size: .7em;
-    font-family: 'Roboto', sans-serif, Arial;
-    color: #393535;
-}
-
-.firstHalf {
-    display: flex;
-    flex: 1;
-    justify-content: space-around;
-    align-items: center;
-}
-
-.secondHalf {
-    display: flex;
-    flex: 1;
-    justify-content: space-around;
-    align-items: center;
-}
-
-#search {
-    color: #fffeff;
-    font-family: 'Roboto', sans-serif, Arial;
-    font-size: 20px;
-}
-
-.inpt {
-    margin-bottom: 20px;
-    border: 1px solid #ddd;
-    border-radius: 8px;
-    height: 20px;
-    font-size: .7em;
-}
-
-#copyright {
-    color: #fffeff;
-    text-align: center;
-    width: 100%;
-}
-
-#socialMedia {
-    color: #fffeff;
-    font-family: 'Roboto', sans-serif, Arial;
-    font-size: 20px;
-    float: left;
-    height: 50%;
-}
-
-#topSeachBar {
-    display: inline;
-    flex-direction: row;
-    justify-content: space-between;
-}
-
-#tsb1 {
-    float: left;
-    height: 30px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-}
-
-#tsb1 ul {
-    list-style: none;
-}
-
-#tsb1 li {
-    display: inline;
-}
-
-#tsb2 {
-    float: right;
-}
-
-#tsb2 form {
-    display: inline;
-}
-
-#tsb2 input {
-    vertical-align: super;
-}
-
-#tsb2 ::placeholder {
-    color: #FFF;
-}
-
-#topSearchBar input {
-    background: transparent;
-    border: 0;
-    border-bottom: 1px solid #ccc;
-    border-bottom-width: 1.7px;
-    border-radius: 0px;
-}
-
-#socialMedia ul {
-    list-style: none;
-}
-
-#socialMedia li {
-    display: inline;
-}
-
-#block {
-    float: left;
-    margin-top: 85px;
-    margin-left: 20%;
-    height: 100%;
-    width: 200px;
-    text-align: center;
-}
-
-#block p {
-    font-size: 30px;
-}
-
-#block button {
-    background-color: #184262;
-    border: none;
-    color: #FFF;
-    width: 100%;
-    height: 30px;
-}
-
-#produtosavenda {
-    margin-top: 43px;
-    width: 100%;
-    height: 100%;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-}
-
-#produtosavenda p {
-    border-bottom: 2px linear-gradient(to right, #387cad, #54dabf);
-    font-weight: bold;
-    color: #3f93b3;
-    font-size: 25px;
-}
-
-.items {
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-}
-
-.item {
-    background-color: #FFF;
-    width: 20%;
-    height: 250px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: flex-start;
-}
-
-.bar {
-    padding: 0;
-    background-color: #3d88b0;
-    width: 100%;
-    height: 40px;
-
-    font-family: 'Roboto', sans-serif, Arial;
-    line-height: 40px;
-    font-size: 22px;
-    color: #FFF;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.sentence {
-    color: #989898;
-    padding: 10px;
-}
-
-.s1 {
-    margin-top: 5px;
-    font-size: 15px;
-    padding-left: 45px;
-    padding-top: 0px;
-}
-
-.login {
-    margin-top: 5%;
-    width: 100%;
-    background-image: url('iclindo.jpg');
-    overflow: hidden;
-}
-
-#login-block {
-    background-color: #FFFF;
-    width: 30%;
-    margin: 5% 35%;
-    border-radius: 10px;
-}
-
-#login-block h1{
-    font-size: 15px;
-    text-align: center;
-    color: #FFF;
-}
-
-#loginBar {
-    padding: 0;
-    background-color: #3d88b0;
-    width: 100%;
-    height: 40px;
-
-    font-family: 'Roboto', sans-serif, Arial;
-    line-height: 40px;
-    font-size: 25px;
-    color: #FFF;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.login form {
-    display: flex;
-    flex-direction: column;
-    padding: 20px;
-}
-
-.login form button {
-    margin-top: 20px;
-    background-image: linear-gradient(to right, #387cad, #54dabf);
-    border: 0;
-    width: 90%;
-    height: 30px;
-    color: #FFF;
-    font-size: 20px;
-}
-
-.login input {
-    width: 85%;
-    border: 0;
-    border-bottom: 1px solid #ccc;
-    border-bottom-width: 1.7px;
-    border-radius: 0px;
-}
-
-#nonSolved {
-    padding-top: 20px;
-    font-size: 22px;
-    font-weight: bold;
-    color: #4194b4;
-    line-height: 40px;
-    text-align: center;
-}
-
-#name, #msg {
-    display: inline;
-    flex-direction: row;
-}
-
-#name, #msg p {
-    color: #989898;
-    font-size: 15px;
-}
-
-#msg textarea {
-    border: none;
-    border-bottom: 2px solid #ddd;
-} 
-
-ul{
-    list-style: none;
-    margin: 0;
-}
-img{
-    max-width: 100%;
-}
-
-.l2 {
-    height: 30px;
-    padding: 3px;
-}
-.mainMenu{
-    width: 100%;
-    background-image: linear-gradient(to right, #387cad, #54dabf);
-    overflow: hidden;
-}
-
-.firstHalf{
-    display: none;
-}
-.secondHalf{
-    display: none;
-}
-
-h1{
-    text-align: center;
-    margin: 0;
-}
-
-.logo-desktop{
-    display: none;
-}
-
-.logo-mobile{
-    margin-top: 10px;
-    cursor: pointer;
-}
-
-.menu{
-    text-align: center;
-}
-
-.menu ul{
-    margin-top: 20px;
-}
-
-.menu ul li{
-    display: inline-block;
-}
-
-.menu ul li a{
-    text-decoration: none;
-    font-size: .7em;
-    font-family: Roboto, sans-serif;
-    color: #fff;
-    text-transform: uppercase;
-    margin-right: 40px;
-    padding: 3px;
-}
-
-.menu li a:hover{
-    background: #46abb6;
-    transition: all .2s linear;
-    border-radius: 3px;
-}
-
 @media ( min-width: 1024px ) {
     .menu{
         display: inline;
@@ -452,6 +265,7 @@ h1{
     .logo-desktop{
         display: inherit;
         cursor: pointer;
+        margin-left: 55px;
     }
     .menu-mobile{
         display: none;
@@ -492,12 +306,6 @@ h1{
         flex-direction: row;
         justify-content: space-between;
     }
-    .topSearchBar input {
-        background: transparent;
-        border: 0;
-        border-bottom: 1px solid #fff;
-        border-radius: 0px;
-    }
     #tsb1 {
         float: left;
         height: 30px;
@@ -530,11 +338,81 @@ h1{
     #tsb2 ::placeholder {
         color: #fff;
     }
+    .topSearchBar input {
+        background: transparent;
+        border: 0;
+        border-bottom: 1px solid #fff;
+        border-radius: 0px;
+    }
     li i{
         color: #fff;
     }
     li i:hover{
         transform: translateY(-5px);
         transition: all .2s linear;
+    }
+    .helpbody{
+        margin-top: 5%;
+        overflow: hidden;
+    }
+    .helpbody .l3 {
+        width: 30%;
+        margin-left: 35%;
+    }
+    h3{
+        margin-top: -0px;
+        border-radius: 2px;
+    }
+    .item{
+        width: 25%;
+        float: left;
+        height: 220px;
+        margin-left: 6%;
+    }
+    .login{
+        height: 490px;
+    }
+    .login-block{
+        margin-top: 2%;
+        width: 35%;
+        margin-left: 30%;
+    }
+    textarea{
+        height: 5px;
+    }
+    footer{
+        padding-left: 25px;
+        padding-right: 25px;
+        padding-top: 40px;
+        padding-bottom: 10px;
+    }
+    .text-footer{
+        width: 35%;
+        text-align: center;
+        float: left;
+    }
+    .team{
+        display: inherit;
+        float: left;
+        margin: 20px 100px;
+        font-weight: bold;
+    }
+    .team1{
+        float: left;
+    }
+    .team2{
+        float: right;
+    }
+    .team ul{
+        list-style: circle;
+    }
+    footer i{
+        color: #fff;
+    }
+    .copy{
+        margin-top: 20px;
+    }
+    .copy i{
+        font-size: .5em;
     }
 }

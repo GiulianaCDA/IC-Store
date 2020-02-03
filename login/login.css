@@ -12,7 +12,7 @@ ul{
 img{
     max-width: 100%;
 }
-
+/*HEADER*/
 .l1 {
     height: 5px;
 }
@@ -71,7 +71,7 @@ h1{
     transition: all .2s linear;
     border-radius: 3px;
 }
-
+/*BARRA DE PESQUISA GRADIENT*/
 .topSearchBar {
     display: none;
 }
@@ -319,8 +319,8 @@ footer .copy{
         border-bottom-width: 1.7px;
         border-radius: 0px;
     }
-    #login input ::placeholder{
-        font-size: .7em;
+    #login input::placeholder{
+        font-size: .5em;
     }
     .login-block {
         background-color: #fff;
@@ -351,7 +351,7 @@ footer .copy{
 
     .remember a {
         color: #3d88b0; 
-        font-size: .7em;
+        font-size: .5em;
         text-decoration: none;
         text-transform: uppercase;
         display: inherit;
